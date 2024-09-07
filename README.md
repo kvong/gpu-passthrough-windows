@@ -8,12 +8,13 @@ NOTE: I did not stick with this set up because I notice some latency while conte
 
 ### Hardware
 
-Gigabyte B650I AORUS ULTRA AM5
-Ryzen 7 7900
-Nvidia 4070 Super
-64GB RAM
-2x 2TB NVME SSD
-
+- Gigabyte B650I AORUS ULTRA AM5
+- Ryzen 7 7900: 12 cores with 24 threads
+    - Ryzen chip has APU for the host OS
+    - We can pin the CPU along with its thread directly to the VM.
+- Nvidia 4070 Super
+- 64GB RAM
+- 2x 2TB NVME SSD
 
 ### Enable requirements on BIOS (settings for AMD CPU)
 
